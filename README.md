@@ -7,3 +7,4 @@
 3. Set up view engine (Handlebars);
 4. Render home page (with main layout);
 5. Add routes and controllers (homeController);
+6. Add About page;

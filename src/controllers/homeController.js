@@ -24,7 +24,17 @@ const movies = [
     }
 ];
 
+// const pageTitles = {
+//     home: 'Catalog Page',
+//     details: 'Details Page',
+//     about: 'About Page',
+//     create: 'Create Page',
+//     search: 'Search Page',
+//     404: '404 Page',
+// };
+
 router.get('/', (req, res) => {
+    // res.render('partials/head', {pageTitles: pageTitles.home}); 
     res.render('home', {movies}); 
 });
 
