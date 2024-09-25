@@ -9,3 +9,4 @@
 5. Add routes and controllers (homeController);
 6. Add About page;
 7. Add HTML head partial template; 
+8. Add Create Page; 

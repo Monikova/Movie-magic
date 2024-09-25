@@ -34,8 +34,9 @@ const movies = [
 // };
 
 router.get('/', (req, res) => {
-    // res.render('partials/head', {pageTitles: pageTitles.home}); 
+    // res.render('partials/head', {title: pageTitles.home}); 
     res.render('home', {movies, title: 'Catalog Page'}); 
+    // res.render('home', {movies, title: pageTitles.home}); 
 });
 
 export default router;
