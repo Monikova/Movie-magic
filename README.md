@@ -8,3 +8,4 @@
 4. Render home page (with main layout);
 5. Add routes and controllers (homeController);
 6. Add About page;
+7. Add HTML head partial template; 
