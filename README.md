@@ -14,6 +14,6 @@
 9. Setting up mongoose;
 10. Extract handlebars in a separate init file; 
 10.2. Add new Details Page (hardcoded, without functionality); add Create Post link to head;
+11. Add Movie model; and Create page functionality 
 
-11. Add Movie model;
 12. Convert to db storage; 
