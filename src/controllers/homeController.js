@@ -5,6 +5,7 @@ const router = Router();
 // const movies = [];
 const movies = [
     {
+        id: 1,
         imageUrl: "/img/jungle-cruise.jpeg",
         title: "Jungle Cruise",
         genre: 'Adventure',
