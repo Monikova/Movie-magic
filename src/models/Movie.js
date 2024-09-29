@@ -34,7 +34,9 @@ const movieSchema = new Schema({
         type: String,
         // required: [true, 'Image is required!'],
     }, 
-    cast: {},
+    cast: {
+        type: Array,
+    },
 }); 
 
 const Movie = model('Movie', movieSchema);

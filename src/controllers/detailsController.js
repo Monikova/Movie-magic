@@ -1,10 +1,13 @@
 import { Router } from "express";
 
+import movieService from "../services/movieService.js";
+
 const router = Router();
 
-router.get('/details/:movieId', (req, res) => {
-    // res.render('details1', {title: 'Details Page'});
-    res.render('details', {title: 'Details Page'});
-});
+router.get('/details/:movieId', async (req, res) => {
+    const movieId = req.params.movieId;
+    const movie = await movieService.getOne(movieId).lean();
+    res.render('details', {movie, title: 'Details Page'});
+}); 
 
 export default router; 

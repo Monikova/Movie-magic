@@ -13,7 +13,6 @@ router.post('/movies/create', async (req, res) => {
     const newMovie = await Movie.create(req.body);
     
     res.redirect('/');
-    // res.end();
-})
+});
 
 export default router;
