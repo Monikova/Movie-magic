@@ -10,5 +10,10 @@
 6. Add About page;
 7. Add HTML head partial template; 
 8. Add Create Page (without functionality); 
+8.2. Add Details Page (hardcoded, without functionality); 
+9. Setting up mongoose;
+10. Extract handlebars in a separate init file; 
+10.2. Add new Details Page (hardcoded, without functionality); add Create Post link to head;
 
-9. Setting up mongoose
+11. Add Movie model;
+12. Convert to db storage; 
