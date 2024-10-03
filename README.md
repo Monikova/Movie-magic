@@ -17,5 +17,6 @@
 11. Add Movie model; and Create page functionality 
 12. Convert to db storage; 
 13. Details page (with functionality)
+14. Add Cast model and create-cast page;
 
 - TODO: rating
