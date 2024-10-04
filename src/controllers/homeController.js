@@ -10,4 +10,9 @@ router.get('/', async (req, res) => {
     // res.render('home', {movies, title: pageTitles.home}); 
 });
 
+router.get('/search', async (req, res) => {
+    const movies = await movieService.getAll();
+    res.render('home', {movies, title: 'Search Page', search: true}); 
+});
+
 export default router;
