@@ -13,12 +13,16 @@ const castSchema = new Schema({
     }, 
     born: {
         type: String, 
-        // required: [true, 'Plsce of birth is required'],
+        // required: [true, 'Place of birth is required'],
     }, 
     'name-in-movie': {
         type: String, 
-        // required: [true, 'Plsce of birth is required'],
+        // required: [true, 'Name in movie is required'],
     }, 
+    castImage: {
+        type: String, 
+        // required: [true, 'Image is required'],
+    },
     movie: {
         type: Object,
     }

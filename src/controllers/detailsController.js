@@ -10,4 +10,11 @@ router.get('/details/:movieId', async (req, res) => {
     res.render('details', {movie, title: 'Details Page'});
 }); 
 
+router.get('/attach/cast/:movieId', async (req, res) => {
+    const movieId = req.params.movieId;
+    const movie = await movieService.getOne(movieId).lean();
+    const cast = await movieService.getCast();
+    res.render('castAttach', {movie, cast, title: 'Attach Cast Page'}); 
+});
+
 export default router; 

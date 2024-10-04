@@ -18,5 +18,10 @@
 12. Convert to db storage; 
 13. Details page (with functionality)
 14. Add Cast model and create-cast page;
+15. Add Attach New Cast page
+15.1. Adding cast to DB
+
 
 - TODO: rating
+- add search
+- add model validations
