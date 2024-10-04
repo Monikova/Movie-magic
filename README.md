@@ -20,7 +20,9 @@
 14. Add Cast model and create-cast page;
 15. Add Attach New Cast page
 15.1. Adding cast to DB
+16. Add 404 page;
 
+- add cast to movie (in DB)
 
 - TODO: rating
 - add search

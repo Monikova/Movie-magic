@@ -12,4 +12,8 @@ router.use(aboutController);
 router.use(createController);
 router.use(detailsController);
 
+router.all('*', (req, res) => {
+    res.render('404');
+});
+
 export default router;
