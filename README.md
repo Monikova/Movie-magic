@@ -23,8 +23,11 @@
 16. Add 404 page;
 17. Add Search page; 
 
+18. Added new navigation buttons and functionality to logo (lead to Home page);
+
 
 - add cast to movie (in DB)
+- add dynamic validation
 
 
 - TODO: rating
