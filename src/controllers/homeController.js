@@ -15,4 +15,8 @@ router.get('/search', async (req, res) => {
     res.render('home', {movies, title: 'Search Page', search: true}); 
 });
 
+router.get('/login', (req, res) => {
+    res.render('login', {title: 'Login Page'});
+})
+
 export default router;
