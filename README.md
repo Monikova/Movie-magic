@@ -25,6 +25,8 @@
 
 18. Added new navigation buttons and functionality to logo (lead to Home page);
 19. Add Login Page; 
+20. Add Register Page; 
+
 
 
 - add cast to movie (in DB)
