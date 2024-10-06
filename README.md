@@ -28,7 +28,7 @@
 20. Add Register Page; 
 21. Add User model; 
 22. Add authService; 
-
+23. Add auth controller; 
 
 
 - add cast to movie (in DB)
