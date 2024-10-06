@@ -27,6 +27,8 @@
 19. Add Login Page; 
 20. Add Register Page; 
 21. Add User model; 
+22. Add authService; 
+
 
 
 - add cast to movie (in DB)
